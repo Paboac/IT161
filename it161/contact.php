@@ -91,7 +91,8 @@ border:1px solid #ccc;
   <p>Inside the source of this file, you can un-comment and test 
 2 different types of forms:
 </main>  
-
+</body>
+</html>
 <?php
 /*
        * Below are 2 different forms to be re-used       
@@ -110,21 +111,28 @@ include 'includes/contact_include.php'; #site keys & code here
 echo loadContact('multiple.php');#demonstrates multiple form elements
 
 ?>
-    <script>
-    //https://tinyurl.com/dynamic-html-checker
-    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
-      
-    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
-    
-    //manages mobile nav 
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }   
- </script>
- </body>
-</html>
+  
+  <p><small>&copy; 2022 by 
+      <a href="contact.php">Pablo Contreras</a>, All Rights Reserved ~ 
+      <a id="html-checker" href="#">Check HTML</a> ~ 
+      <a id="css-checker" href="#">Check CSS</a></small>
+</p>
+</footer>
+</div>
+
+<script>
+//https://tinyurl.com/dynamic-html-checker
+document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+  
+document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+
+//manages mobile nav 
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}   
+</script>
