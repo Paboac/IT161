@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jamie Sherwood Designs</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="/it161/css/portal.css" />
+  <link rel="stylesheet" href="/it161/css/nav.css" />
+<body>
+<header>
+<h1>Jamie Sherwood Designs</h1>
+<nav class="topnav" id="myTopnav">
+<a href="index.html" class="active">Portal</a>
+<a href="fp/index.html">About Me</a>
+<a href="contact.php">Contact Jamie</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+</header>
+
+<div class="wrapper">
+
+<img class="desktop" src="/it161/photos/livingroom.jpg" alt="Living Room Designs" />
+
+<img class="tablet" src="/it161/photos/House_Calls_Brooklyn_Zames_Williams_living_room_2_Matthew_Williams.0.jpg" alt="Residential Designs" />
+
+<img class="phone" src="images/phone.jpg" alt="A photo at Mt.Rainier." />
+
+<h2 class="subheader">A little about me!</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br>
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</br>
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+        <footer>
+  
+      <p><small>&copy; 2022 by 
+          <a href="contact.php">Pablo Contreras</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+</p>
+    </footer>
+  </div>
+
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+
+  <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+</script>
+</html>

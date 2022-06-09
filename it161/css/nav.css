@@ -1,14 +1,14 @@
 /* Global rules */
 .topnav {
     margin: auto;
-    background-color: rgb(95,95,95);
+    background-color: rgb(223, 188, 97);
     overflow: auto;
 }
 
 .topnav a {
-    float: left;
+    float: center;
     display: block;
-    color: whitesmoke;
+    color: rgb(170, 63, 63);
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
@@ -17,7 +17,7 @@
 }
 
 .topnav a.hover, .active {
-    background-color: rgb(75, 132, 75);
+    background-color: rgb(228, 235, 228);
 }
 
 .topnav .icon {
