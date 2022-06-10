@@ -1,23 +1,23 @@
 /* Global rules */
 .topnav {
     margin: auto;
-    background-color: rgb(95,95,95);
+    background-color: rgb(212, 180, 95);
     overflow: auto;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .topnav a.hover, .active {
-    background-color: rgb(75, 132, 75);
+    background-color: rgb(74, 80, 74);
 }
 
 .topnav .icon {
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 1199px) {
     .topnav a:not(:first-child) {
-        display: none;
+        display: center;
     }
     
     .topnav a.icon {
@@ -52,6 +52,7 @@
         top: 0;
     }
 }
+
 
 
 /* DESKTOP */
