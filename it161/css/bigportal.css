@@ -15,15 +15,15 @@ html {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: bold;
     margin: auto;
     background: 221, 218, 213;
     line-height: 2.5em;
 }
 
 div.wrapper {
-    background-color: rgb(221, 218, 213);
-    overflow: auto;
+    background-color: rgb(238, 236, 232);
+    background-position: cover;
 }
 
 p {
@@ -32,13 +32,13 @@ p {
 
 
 h2, h3 {
-    font-weight: normal;
+    font-weight: bold;
     margin-left: 1em;
     line-height: 1em;
 }
 
 a {
-    color:whitesmoke;
+    color:rgb(10, 1, 1);
     text-decoration: none;
 }
 
@@ -81,15 +81,19 @@ footer {
     img.desktop {
         width: 50%;
         float: center;
-        margin-right: 1em;
+        margin-left: 1em;
     }
-    
-    img.tablet, img.phone {
-        display: none;
+        
+    img.tablet {
+        width:80%;
+        float: center;
+        padding-right: 1em;
     }
-    
-    p {
-        margin: 1em;
+
+    img.phone{
+        width:80%;
+        position: center;
+        offset-position: center;
     }
 }
 
@@ -106,13 +110,20 @@ footer {
     }
     
     img.tablet {
-        width: 50%;
-        float: right;
-        margin-left: 1em;
+        width:80%;
+        float: center;
+        padding-right: 1em;
+
     }
     
-    img.desktop, img.phone {
-        display: none;
+    img.desktop {
+        width: 80%;
+        float: center;
+
+    }
+    img.phone{
+        width:80%;
+        float: center;
     }
 }
 
@@ -125,13 +136,5 @@ footer {
     h1 {
         width: 99%;
         padding-left: 1%;
-    }
-    
-    img.phone {
-        width: 100%;
-    }
-    
-    img.desktop, img.tablet {
-        display: none;
     }
 }

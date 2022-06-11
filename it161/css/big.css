@@ -8,7 +8,7 @@
 .topnav a {
     float: left;
     display: block;
-    color: rgb(245, 245, 245);
+    color: rgb(5, 5, 5);
     text-align: center;
     padding: 12px 12px;
     text-decoration: none;
@@ -17,12 +17,13 @@
 }
 
 .topnav a.hover, .active {
-    background-color: rgb(74, 80, 74);
+    background-color: rgb(83, 92, 83);
 }
 
 .topnav .icon {
     display: none;
 }
+
 
 /* Responsive rules - apply when screen width is less than 1200px */
 
@@ -75,3 +76,4 @@
         width: 100%;
     }
 }
+
