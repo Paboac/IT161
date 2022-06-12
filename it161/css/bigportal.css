@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: rgb(92, 88, 88);
+    background-color: rgb(201, 200, 198);
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -23,7 +23,8 @@ h1 {
 
 div.wrapper {
     background-color: rgb(238, 236, 232);
-    background-position: cover;
+    background-position: auto;
+    border-spacing: 5em;
 }
 
 p {
@@ -69,7 +70,7 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1200px) {
     div.wrapper {
-        width: 80%;
+        width: auto;
         margin: auto;
     }
     
@@ -79,21 +80,23 @@ footer {
     }
     
     img.desktop {
-        width: 50%;
-        float: center;
-        margin-left: 1em;
+        width:31%; 
+        position: left;
+        padding-left: 3em;
     }
         
     img.tablet {
-        width:80%;
+        width:30%;
         float: center;
-        padding-right: 1em;
     }
 
     img.phone{
-        width:80%;
-        position: center;
-        offset-position: center;
+        width:31%;
+        position: right;
+    }
+    .descrip1{
+        width: 60%;
+        position: right;
     }
 }
 
@@ -125,6 +128,10 @@ footer {
         width:80%;
         float: center;
     }
+    .descrip1, .descrip2, .descrip3{
+        font-size: medium;
+        display: none;
+    }
 }
 
 /* PHONE */
@@ -137,4 +144,23 @@ footer {
         width: 99%;
         padding-left: 1%;
     }
-}
+        img.tablet {
+            width:80%;
+            float: right;
+            padding-right: 1em;
+        }
+    
+        
+        img.desktop{
+            width: 80%;
+            float: right;
+    
+    }
+        img.phone{
+            width:80%;
+            float: right;
+        }
+        .descrip{
+            display: none;
+        }
+    }
