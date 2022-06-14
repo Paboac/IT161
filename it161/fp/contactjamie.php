@@ -5,8 +5,8 @@
 <meta name="robots" content="noindex,nofollow" />
 <meta name="viewport" content="width=device-width" />
 <meta charset="utf-8" />
-<link rel="stylesheet" href="css/big.css" />
-<link rel="stylesheet" href="css/bigportal.css" />
+<link rel="stylesheet" href="../css/big.css" />
+<link rel="stylesheet" href="../css/bigportal.css" />
 <link rel="stylesheet" href="js/big.js"/>
 <body>
 <header>
@@ -19,7 +19,7 @@
 </header>
 <footer>
 <p><small>&copy; 2022 by 
-<a href="contact.php">Jamie Sherwood</a>, All Rights Reserved ~ 
+<a href="../fp/contactjamie.php">Jamie Sherwood</a>, All Rights Reserved ~ 
 <a id="html-checker" href="#">Check HTML</a> ~ 
 <a id="css-checker" href="#">Check CSS</a></small>
 </p>
@@ -38,7 +38,7 @@
        *
        */
 
-include 'includes/contact_include.php'; #site keys & code here
+include '../includes/contact_include.php'; #site keys & code here
 
       $toAddress = "Pabcontreras93@gmail.com";  //place your/your client's email address here
       $toName = "Pablo Contreras"; //place your client's name here
