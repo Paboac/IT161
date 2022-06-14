@@ -82,7 +82,7 @@ footer {
     img.desktop {
         width:31%; 
         position: left;
-        padding-left: 3em;
+        padding-left: 2em;
     }
         
     img.tablet {
@@ -91,8 +91,9 @@ footer {
     }
 
     img.phone{
-        width:31%;
+        width:36%;
         position: right;
+        padding-right: 1em;
     }
     .descrip1{
         width: 60%;
