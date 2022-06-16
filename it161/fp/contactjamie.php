@@ -13,10 +13,16 @@
 <h1>Jamie Sherwood Designs</h1>
 <nav class="topnav" id="myTopnav">
 <a href="index.html" class="active">Portal</a>
-<a id="about" href="fp/index.html">About Me</a>
-<a id="contact" href="contact.php">Contact Jamie</a>
+<a href="about.html">About Me</a>
+<a href="contactjamie.php">Contact Jamie</a>
 </nav>
 </header>
+<body>
+<h1>How to get in touch with me</h1>
+<p>I am always happy to hear from you. Please fill out the form below and I will get back to you as soon as possible.</p>
+
+
+
 <footer>
 <p><small>&copy; 2022 by 
 <a href="../fp/contactjamie.php">Jamie Sherwood</a>, All Rights Reserved ~ 
@@ -30,6 +36,7 @@
 </main>  
 </body>
 </html>
+
 <?php
 /*
        * Below are 2 different forms to be re-used       
