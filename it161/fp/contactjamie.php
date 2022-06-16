@@ -12,30 +12,23 @@
 <header>
 <h1>Jamie Sherwood Designs</h1>
 <nav class="topnav" id="myTopnav">
-<a href="index.html" class="active">Portal</a>
+<a href="big.html" class="active">Portal</a>
 <a href="about.html">About Me</a>
 <a href="contactjamie.php">Contact Jamie</a>
 </nav>
 </header>
+<br>
+
+<div class="contactpic">
+<img class="modern" src="photos/modern.jpg" alt="Another beautiful design!" />
+</div>
 <body>
 <h1>How to get in touch with me</h1>
 <p>I am always happy to hear from you. Please fill out the form below and I will get back to you as soon as possible.</p>
 
 
-
-<footer>
-<p><small>&copy; 2022 by 
-<a href="../fp/contactjamie.php">Jamie Sherwood</a>, All Rights Reserved ~ 
-<a id="html-checker" href="#">Check HTML</a> ~ 
-<a id="css-checker" href="#">Check CSS</a></small>
-</p>
-</footer>
-
-<main role="main">
-<header><h3>Contact Us!</h3></header>
-</main>  
+<header><h3>Contact Me!</h3></header>
 </body>
-</html>
 
 <?php
 /*
@@ -75,4 +68,13 @@ function myFunction() {
      }
 }   
 </script>
+
+<footer>
+
+<p><small>&copy; 2022 by</p>
+<a href="../fp/contactjamie.php">Jamie Sherwood</a>, All Rights Reserved ~ 
+<a id="html-checker" href="#">Check HTML</a> ~ 
+<a id="css-checker" href="#">Check CSS</a></small>
+</p>
+</footer>
 </html>
