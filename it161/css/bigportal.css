@@ -80,19 +80,20 @@ footer {
     }
     
     img.desktop {
-        width:31%; 
+        width:33%; 
+        height: 22em;
         position: left;
     }
         
     img.tablet {
-        width:30%;
+        width:33%;
         float: center;
     }
 
     img.phone{
-        width:30%;
+        width:33%;
+        height: 22em;
         position: right;
-        padding-right: 1em;
     }
     .descrip1{
         width: 60%;
@@ -100,10 +101,14 @@ footer {
     }
     .designer{
         width:30%;
-        float:right;
+        float:center;
+    }
+    .aboutdesc{
+        width: 80%;
+        position: center;
+
     }
 }
-
 
 /*LAPTOP*/
 @media all and (min-width: 1030px) and (max-width: 1366px){
