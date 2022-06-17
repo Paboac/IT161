@@ -76,30 +76,40 @@ footer {
     }
     
     img.desktop {
-        width:31%; 
+        width:33%; 
+        height: 22em;
         position: left;
     }
         
     img.tablet {
-        width:30%;
+        width:33%;
         float: center;
     }
 
     img.phone{
-        width:30%;
+        width:33%;
+        height: 22em;
         position: right;
-        padding-right: 1em;
     }
     .descrip1{
         width: 60%;
         position: right;
     }
     .designer{
+<<<<<<< HEAD
         width:35%;
         float:right;
+=======
+        width:30%;
+        float:center;
+    }
+    .aboutbody{
+        width: 80%;
+        position: right;
+
+>>>>>>> bf5c8660d952a89f299a765365c3edcc8d910677
     }
 }
-
 
 /*LAPTOP*/
 @media all and (min-width: 1030px) and (max-width: 1366px){
@@ -128,9 +138,12 @@ footer {
         position: right;
     }
     .designer{
-        width:20%;
+        width:40%;
         float:right;
     }    
+    .aboutbody{
+        width: 70%;
+    }
 }
 
 /* TABLET */
@@ -165,6 +178,9 @@ footer {
         font-size: medium;
         display: none;
     }
+    img.designer{
+        width: 80%;
+    }
 }
 
 /* PHONE */
@@ -194,5 +210,9 @@ footer {
         }
         .descrip{
             display: none;
+        }
+        img.designer{
+            width:85%;
+            float:center;
         }
     }
