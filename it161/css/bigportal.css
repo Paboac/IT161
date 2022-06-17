@@ -69,11 +69,7 @@ footer {
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
-    div.wrapper {
-        width: auto;
-        margin: auto;
-    }
-    
+
     h1 {
         width: 79%;
         padding-left: 1%;
@@ -99,7 +95,7 @@ footer {
         position: right;
     }
     .designer{
-        width:30%;
+        width:35%;
         float:right;
     }
 }
@@ -107,11 +103,7 @@ footer {
 
 /*LAPTOP*/
 @media all and (min-width: 1030px) and (max-width: 1366px){
-    div.wrapper {
-        width: auto;
-        margin: stretch;
-    }
-    
+
     h1 {
         width: 79%;
         padding-left: 1%;
