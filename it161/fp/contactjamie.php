@@ -16,12 +16,19 @@
 <a href="about.html">About Me</a>
 <a href="contactjamie.php">Contact Jamie</a>
 <a href="disclaimer.html">Webpage Disclaimer</a>
+<a href="index.html">Project Main Page</a>
+
 </nav>
 </header>
 <br>
+<div class="wrapper">
 
-<div class="contactpic">
-<img class="modern" src="photos/modern.jpg" alt="Another beautiful design!" />
+<img class="desktop" src="../photos/livingroom.jpg" alt="Living Room Designs" />
+
+<img class="tablet" src="../photos/House_Calls_Brooklyn_Zames_Williams_living_room_2_Matthew_Williams.0.jpg" alt="Residential Design" />
+
+<img class="phone" src="../photos/anotherroom.png" alt="Another design." />
+</div>
 </div>
 <body>
 <h1>How to get in touch with me</h1>

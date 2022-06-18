@@ -76,19 +76,19 @@ footer {
     }
     
     img.desktop {
-        width:33%; 
-        height: 22em;
-        position: left;
+        width:33%;
+        height: 36em;
     }
         
     img.tablet {
         width:33%;
+        height: 36em;
         float: center;
     }
 
     img.phone{
-        width:33%;
-        height: 22em;
+        width: 33%;
+        height: 36em; 
         position: right;
     }
     .descrip1{
@@ -185,23 +185,22 @@ footer {
     }
     
     h1 {
-        width: 99%;
-        padding-left: 1%;
+        width:100%;
+        size: 5em;
     }
         img.tablet {
-            width:80%;
+            width:50%;
             float: right;
         }
     
         
         img.desktop{
-            width: 80%;
+            width:50%;
             float: right;
     
     }
         img.phone{
-            width:80%;
-            float: right;
+            display:none;
         }
         .descrip{
             display: none;
