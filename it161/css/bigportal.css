@@ -104,6 +104,14 @@ footer {
         position: right;
 
     }
+    .descrip{
+        width: 60%;
+        justify-content: space-evenly;
+    }
+    .descrip2{
+        width: 60%;
+        justify-content: space-evenly;
+    }
 }
 
 /*LAPTOP*/
