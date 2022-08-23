@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Pablo's IT161 Portal Website</title>
+  <title>Pablo's IT289 Portal Website</title>
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
@@ -12,14 +12,10 @@
 </head> 
 <body>
 <header>
-<h1>Pablo's IT161 Website</h1>
+<h1>Pablo's IT289 Website</h1>
 <nav class="topnav" id="myTopnav">
 <a href="index.html" class="active">Welcome</a>
-<a href="elements.html">HTML Elements</a>
-<a href="aia.html">AIA</a>
-<a href="big/index.html">BIG</a>
-<a href="http://w3schools.com" target="_blank">W3 Schools</a>
-<a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
+<a href="https://www.linkedin.com/contreraspablo" target="_blank">LinkedIn</a>
 <a href="flowchart.html">Flowchart</a>
 <a href="fp/index.html">Final Project</a>
 <a href="contact.php">Contact Pablo</a>
@@ -29,11 +25,11 @@
 
 <div class="wrapper">
 
-<img class="desktop" src="images/desktop.jpg" alt="Adorable photo of my cat, Keko!" />
+<img class="desktop" src="images/webdesign.png" alt="Adorable photo of my cat, Keko!" />
 
-<img class="tablet" src="images/tablet.jpg" alt="Picture of my girlfriend" />
+<img class="tablet" src="images/webdesign.png" alt="Picture of my girlfriend" />
 
-<img class="phone" src="images/phone.jpg" alt="A photo at Mt.Rainier." />
+<img class="phone" src="images/webdesign.png" alt="A photo at Mt.Rainier." />
 
 <h2 class="subheader">A little about me!</h2>
 
@@ -105,7 +101,7 @@ include 'includes/contact_include.php'; #site keys & code here
 
       $toAddress = "Pabcontreras93@gmail.com";  //place your/your client's email address here
       $toName = "Pablo Contreras"; //place your client's name here
-      $website = "IT161 Contact Form";  //place NAME of your client's website
+      $website = "It289 Contact Form";  //place NAME of your client's website
 
 //echo loadContact('simple.php');#demonstrates a simple contact form
 echo loadContact('multiple.php');#demonstrates multiple form elements

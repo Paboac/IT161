@@ -34,9 +34,9 @@
 			Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="30"></textarea>
 		</label>
 	</div>	
-    <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
+<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
 	<div>
 		<input type="submit" value="submit" />
 	</div>
-    </form>
+</form>
 	<!-- END HTML FORM -->
